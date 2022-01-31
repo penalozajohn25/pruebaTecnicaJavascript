@@ -1,0 +1,132 @@
+:root {
+    --colortext: #fff;
+    --colorDefaul: #3f51b5;
+}
+
+#iconMenu{
+    padding: 10px;
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--colorTheme);
+} 
+
+footer {
+    background-color: var(--colorDefaul);
+}
+
+.menu {
+    width: 100%;
+    background-color: var(--colorDefaul);
+}
+
+
+.list-menu {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button-menu{
+    padding: 8px;
+    font-size: 15px;
+    background: transparent;
+    color: var(--colortext);
+    border: 1px solid #3f51b5;
+    cursor: pointer;
+}
+
+ul > li {
+    color: var(--colortext);
+    list-style: none;
+    padding: 7px;
+    border-bottom: 1px solid;
+}
+
+
+.list-lang {
+    border-bottom: 0px solid;
+    list-style: none;
+}
+
+.drop {
+    position: absolute;
+    background-color: var(--colorDefaul);
+    margin-top: 7px;
+    padding: 16px;
+    list-style: none;
+    border: 1px solid;
+    display: none;
+}
+
+
+.menu-mobile {
+    display: none;
+    height: 62px;
+    background-color: var(--colorDefaul);
+    color: var(--colortext);
+    align-items: center;
+    padding: 5px;
+}
+
+.container-logo {
+    width: 51px;
+    height: 59px;
+}
+
+
+.img-logo {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../assets/images/angular-super-hero.png');
+}
+
+.footer {
+    color: var(--colortext);
+    height: 62px;
+    margin-top: 35px;
+    padding: 20px;
+    background-color: var(--colorDefaul);
+}
+
+
+.li-logo {
+    border-bottom: 0px !important;
+}
+
+@media all and (min-width: 571px) {
+    .menuMobile {
+        display: none;
+    }
+    .menu {
+        display: inline-block !important;
+    }
+}
+
+@media all and (max-width: 570px) {
+    .menu {
+        display: none
+    }
+
+  .menu-mobile {
+    display: flex
+  }
+   
+  .list-menu {
+    display: block
+  }
+
+  header {
+    z-index: 100
+  }
+}

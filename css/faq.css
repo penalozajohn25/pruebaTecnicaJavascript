@@ -1,0 +1,36 @@
+:root{
+--colorTheme: #fff;
+--black: #000;
+}
+
+.card{
+    padding: 31px;
+    border: 1px solid var(--black);
+    margin: 15px;
+    background-color: var(--colorTheme);
+}
+
+.expant-hidden {
+    display: none;
+}
+
+.header {
+    text-align: center;
+}
+
+td {
+    border: 1px solid var(--black);
+    width: 1366px;
+    padding: 20px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.content-data-expant {
+    display: none;
+    padding: 20px;
+}
+
+.icon-option {
+    display: flex;
+}

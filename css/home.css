@@ -1,0 +1,110 @@
+:root{
+  --colorButton: #3f51b5;
+  --black: #000;
+  --colorTheme: #fff;
+}
+
+.card{
+    padding: 25px;
+    border: 1px solid var(--black);
+    margin: 15px;
+    background-color: var(--colorTheme);
+}
+
+
+.header{
+    background-image: url('https://e625.com/sitio/wp-content/uploads/2016/09/Jes%C3%BAs-como-H%C3%A9roe.jpg');
+    margin:10px auto;
+    border-radius:5px;
+    padding:13px;
+    height:220px;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+
+#action{
+    background-color: var(--colorButton);
+    color: var(--colorTheme);
+    border: 1px solid var(--colorButton);
+    height: 49px;
+    width: 97px;
+    cursor: pointer;
+}
+
+
+.container-modal{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.modal {
+    top: 45px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: var(--colorTheme);
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+    width: 510px;
+    height: 241px;
+    border-radius: 20px;
+}
+
+.open {
+    display: flex;
+    opacity: 1;
+    position: fixed;
+}
+
+.header img{
+    width: 100%
+}
+
+@media all and (min-width: 500px) and (max-width: 1000px) {
+    .header {
+        width:300px;
+        height:300px;
+    }
+}
+
+
+@media all and (max-width: 310px) {
+    .header{
+        height:65px;
+    }
+  
+  .menu {
+    top: 87px;
+    width: 253px;
+    height: 188px;
+  }
+
+}
+
+@media all and (max-width: 940px){
+    .modal {
+        top: 100px;
+        width: 275px;
+        height: 188px;
+    }
+}
+
+
+@media all and (max-width: 280px) {
+    .modal {
+        top: 100px;
+        width: 239px;
+        height: 188px;
+    }
+}
+
+
+
+
+    
+  

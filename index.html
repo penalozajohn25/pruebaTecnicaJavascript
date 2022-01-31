@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/index.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./css/home.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./css/modal.css" media="screen">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <div class="menu-mobile">
+                <i class="fas fa-bars" id="iconMenu"></i>
+            </div>
+            <div class="menu" id="menuMobile">
+                <ul class="list-menu">
+                    <li class="li-logo">
+                        <div class="container-logo">
+                            <div class="img-logo">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="button-menu">
+                            <a href="./index.html" class="link">
+                                <i class="fas fa-home"></i>
+                                <span>home</span>
+                            </a>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="button-menu">
+                            <a href="./about/about.html" class="link">
+                                <i class="fas fa-heart"></i>
+                                <span>About</span>
+                            </a>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="button-menu">
+                            <a href="./faq/faq.html" class="link">
+                                <i class="fas fa-info-circle"></i>
+                                <span>FAQ</span>
+                            </a>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="button-menu" id="langMenu">
+                            <a href="#" class="link">
+                                <i class="fas fa-flag"></i>
+                                <span>Lang</span>
+                            </a>
+                        </button>
+
+                        <div class="drop" id="drop">
+                            <ol class="list-lang">
+                                <li>
+                                    English
+                                </li>
+                                <li>
+                                    Spanish
+                                </li>
+                            </ol>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </header>
+        <section>
+
+            <div class="container">
+                <div class="card">
+                    <div class="header"></div>
+                    <div class="content">
+                        <div class="title">
+                            <h2>HERO</h2>
+                        </div>
+                        <div class="content-detail">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, consequuntur. Cumque
+                                voluptatum, facilis
+                                rerum, molestiae id eveniet minus modi ducimus quis ab ratione voluptates maxime
+                                accusantium similique
+                                aliquam, non quasi.
+                            </p>
+                            <div class="button-action">
+                                <button id="action">Enter Email</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-modal">
+                    <div class="modal" id="dialogs">
+                        <div class="container">
+                            <form>
+                                <div class="button-close" id="closeDialog">X</div>
+                                <div class="form-group">
+                                    <input placeholder="Email" type="email"/>
+                                    <button class="buttonSend">Registrar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <div class="footer">
+                <div>
+                    &copy; John Penaloza
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+</body>
+
+<script src="./scripts/index.js"></script>
+
+</html>

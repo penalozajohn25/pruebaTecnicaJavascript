@@ -1,0 +1,31 @@
+:root {
+ --colorButton: #3f51b5;
+ --colorText: #fff;
+ --back: #000;
+}
+
+
+input {
+    height: 42px;
+    width: 237px;
+    margin: 10px;
+}
+
+
+.buttonSend {
+    height: 49px;
+    width: 112px;
+    color: var(--colorText);
+    background-color: var(--colorButton);
+    border: 1px solid var(--colorButton);
+}
+
+
+.button-close {
+    border-radius: 50%;
+    border: 1px solid var(--back);
+    width: 17px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+}
